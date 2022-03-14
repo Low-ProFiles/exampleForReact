@@ -4,11 +4,11 @@ function Counter() {
   const [number, setNumber] = useState(0);
 
   const onIncrease = () => {
-    setNumber(prevNumber => prevNumber + 1);
+    setNumber(prevnumber => number + 1);
   }
 
   const onDecrease = () => {
-    setNumber(prevNumber => prevNumber - 1);
+    setNumber(number => number - 1);
   }
 
   return (
